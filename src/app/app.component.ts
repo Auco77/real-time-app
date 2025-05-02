@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { RealTimeComponent } from "./components/real-time/real-time.component";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, RealTimeComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
